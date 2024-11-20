@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">LÊ HOÀNG BẢO NGỌC</a>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#myself">About Myself</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="../source/1.JPG" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hello, It's <span>Bảo Ngọc</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Chào mừng bạn đến với portfolio của mình. Hãy cho mình giúp bạn đem những ý tưởng thiết kế tuyệt vời của bản thân trở thành sự thật né! </p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100005556349158"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/bngc.1505/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#contact" class="btn">Hire me</a>
+        </div>
+    </section>
+    <section class="myself" id="myself">
+    <div class="timeline-item">
+        <h1>ABOUT MYSELF</h1>
+        <h3>Mình đã học tại Arena Multimedia được 6 tháng và trong thời gian đó, mình đã thành thạo các kỹ năng về Photoshop, InDesign, Illustrator, cũng như Digital Art. Mình tự tin với khả năng sáng tạo và xử lý hình ảnh chuyên nghiệp, từ thiết kế in ấn đến đồ họa số.</h3>
+        <h3>Mình tự tin có thể mang đến những thiết kế sáng tạo, chuyên nghiệp và đáp ứng tốt mọi nhu cầu của bạn. Với sự tận tâm và tỉ mỉ trong công việc, mình luôn đặt mục tiêu làm hài lòng khách hàng và không ngừng học hỏi để nâng cao chất lượng sản phẩm.</h3>
+        <h3>Nếu bạn đang tìm kiếm một thiết kế độc đáo, hãy để mình giúp bạn tạo nên điều đặc biệt nhé!</h3>
+    </div>
+    <div class="img1">
+        <img src="../source/6.JPG" alt="">
+        <img src="../source/7.JPG" alt="">
+        <img src="../source/8.JPG" alt="">
+    </div>
+    </section>
+    <section class="services" id="services">
+        <h1>SERVICES</h1>
+        <div class="services-container">
+        <div class="services-box">
+            <div class="services-info">
+                <h3>ILLUSTRATION</h3>
+                <p>Dịch vụ vẽ minh họa của tôi mang đến những tác phẩm nghệ thuật độc đáo, không chỉ truyền tải những thông điệp sâu sắc và mạnh mẽ mà còn góp phần quan trọng trong việc tạo dựng và làm nổi bật hình ảnh thương hiệu của bạn. Mỗi nét vẽ đều được chăm chút tỉ mỉ, thể hiện sự sáng tạo và tận tâm
+                    , nhằm mang lại giá trị nghệ thuật cao nhất, giúp thương hiệu của bạn ghi dấu ấn đậm nét trong lòng khách hàng.</p>
+
+            </div>
+        </div>
+        <div class="services-box">
+            <div class="services-info">
+                <h3>GRAPHIC DESIGN</h3>
+                <p>Dịch vụ thiết kế đồ họa của tôi mang đến những giải pháp hình ảnh sáng tạo và đẳng cấp, từ các ấn phẩm quảng cáo đến thiết kế truyền thông,
+                     hỗ trợ bạn truyền đạt thông điệp một cách ấn tượng và chinh phục khách hàng.</p>
+
+            </div>
+        </div>
+        <div class="services-box">
+            <div class="services-info">
+                <h3>BRAND IDENTITY</h3>
+                <p>Dịch vụ thiết kế bộ nhận diện thương hiệu của tôi giúp xây dựng một hình ảnh chuyên nghiệp và ấn tượng, từ logo,
+                     bảng màu đến kiểu chữ, đảm bảo sự đồng nhất và ghi dấu ấn mạnh mẽ của thương hiệu trong tâm trí khách hàng.</p>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h1>PROJECTS</h1>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="./source/2.png" alt="Project 1"></div>
+                <div class="slide"><img src="./source/3.png" alt="Project 2"></div>
+                <div class="slide"><img src="./source/4.png" alt="Project 3"></div>
+                <div class="slide"><img src="./source/5.jpg" alt="Project 4"></div>
+            </div>
+            <button class="prev-btn">❮</button>
+            <button class="next-btn">❯</button>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? We'd love to hear from you!</p>
+            <form action="submit_form.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 Lê Hoàng Bảo Ngọc. All rights reserved.</p>
+            <p>Email: <a href="mailto:baongoc@example.com">hibyesnowflakes@gmail.com</a></p>
+            <p>Phone: 0914368181</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100005556349158"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/bngc.1505/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <button id="upToHome" class="up-to-home-btn">
+        <span class="triangle"></span>
+    </button>
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
